@@ -1,0 +1,43 @@
+.progress-container{
+    width:95%;
+    margin:0 auto;
+    height:12px;
+    border-radius:2px;
+    background:#FFF;
+    border:#EEE 1px inset;
+    position:relative;
+}
+.progress-bar{
+    background:#0073aa;
+    border:#0073aa 1px outset;
+    border-radius:2px;
+    height:10px;
+}
+#ressources_machine p{
+    clear:both;
+    float:none;
+}
+#ressources_machine p.twice{
+    display:block;
+    float:left;
+    width:49%;
+}
+
+#ressources_memory .inside,
+#ressources_disk .inside,
+#ressources_cpu .inside,
+#ressources_top .inside {
+	margin: 0;
+	padding: 0;
+}
+#ressources_memory table,
+#ressources_disk table,
+#ressources_cpu table,
+#ressources_top table {
+	border: none !important;
+  margin: 0 !important;
+}
+
+.ressources-widget-box{
+  padding: 1em;
+}
